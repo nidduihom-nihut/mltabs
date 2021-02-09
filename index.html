@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,35 @@
     <title>mltiple tabs</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Multiple Tabs</h1>
-    <script src="script.js"></script>
+    <h2>Multiple Tabs</h2>
+    <p>Click on the buttons to see tabs</p>
+
+
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+    </div>
+
+
+    <div class="London" id="tabcontent">
+        <h3>London</h3>
+        <p>London is the capital of England</p>
+    </div>
+
+    <div class="Paris" id="tabcontent">
+        <h3>Paris</h3>
+        <p>paris is the Capital of France</p>
+    </div>
+
+    <div class="Tokyo" id="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the Capital of Japan</p>
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
 </body>
+
 </html>
